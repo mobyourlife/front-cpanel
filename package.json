@@ -1,0 +1,8 @@
+{
+  "name": "front-cpanel",
+  "version": "5.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "git@github.com:mobyourlife/front-cpanel.git",
+  "author": "Filipe Oliveira <contato@fmoliveira.com.br>"
+}
