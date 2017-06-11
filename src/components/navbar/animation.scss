@@ -1,0 +1,22 @@
+.navbar--animated {
+  .nav {
+    min-height: 0;
+    max-height: 0;
+    transition: min-height .25s linear;
+
+    .nav-item {
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
+    }
+  }
+
+  &.navbar--visible {
+    .nav {
+      min-height: 3.25rem;
+
+      .nav-item {
+        opacity: 1;
+      }
+    }
+  }
+}
